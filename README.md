@@ -126,8 +126,6 @@ python asciify.py photo.jpg -o output.png --bg 255,255,255 --fg 0,0,0
 ---
 
 ## Notes
-
-- Color output (`-c`) only works in a real terminal (TTY). It's silently ignored when piping output or saving to a file.
 - For best results, use `--invert` if your terminal has a light/white background.
 - The `--font-size` option only affects image and video export — it has no effect on terminal output.
 - Transparent images are composited onto a black (or white, if `--invert`) background before conversion.
